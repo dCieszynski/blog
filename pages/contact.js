@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/contact.module.css";
 
-const contact = () => {
+const Contact = () => {
   const copied = useRef();
 
   const mailCopy = (mail) => {
@@ -30,4 +30,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
