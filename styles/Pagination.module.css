@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_button {
+  margin-right: 0.8rem;
+  background-color: #dce6f0;
+  color: #19232d;
+  padding: 0.35rem 0.9rem;
+  font-family: "Inter", monospace;
+  border-radius: 0.4rem;
+  font-size: 1.15rem;
+  border: none;
+  cursor: pointer;
+}
