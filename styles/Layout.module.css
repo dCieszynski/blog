@@ -75,17 +75,13 @@
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (max-width: 440px) {
   .nav_list {
     justify-content: center;
     padding-inline-start: 0px;
   }
 
   .nav_list__item {
-    display: none;
-  }
-
-  .hamburgerMenu {
     display: none;
   }
 }
